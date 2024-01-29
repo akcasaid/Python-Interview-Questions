@@ -3,8 +3,8 @@ def is_palindrome(string):
     return string == reversed_string
 
 # Test the function
-word = "madam"
+word = input("Lütfen bir kelime giriniz: ")
 if is_palindrome(word):
-    print(f"{word} is a palindrome")
+    print(f"{word} , bir palindromdur")
 else:
-    print(f"{word} is not a palindrome")
+    print(f"{word} ,palindrom değildir.")
